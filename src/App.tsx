@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Title} from "./components/Title";
+import {Button} from "./components/Button";
 
 function App() {
   return (
     <div className="App">
-      <h1>Willkommen</h1>
+      <Title text={'Willkommen'}/>
+        <Button text={'Start'}/>
     </div>
   );
 }
