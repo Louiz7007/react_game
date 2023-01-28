@@ -6,16 +6,3 @@
 body {
   background: #333333;
 }
-
-.title {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}

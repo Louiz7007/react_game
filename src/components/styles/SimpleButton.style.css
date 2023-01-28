@@ -1,0 +1,9 @@
+button {
+    font-family: 'Montserrat';
+    font-size: 10vh;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}

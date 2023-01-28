@@ -1,13 +1,9 @@
-export function Title(props: { text: string }) {
-    const style = {
-        color: '#FCFAF9',
-        fontSize: '10vh',
-        fontFamily: 'Montserrat'
-    }
+import './styles/Title.style.css';
+import {useState} from "react";
+
+export function Title(props: {text: string}) {
 
     return (
-        <div className={'title'}>
-        <h1 style={style}>{props.text}</h1>
-        </div>
+        <h1>{props.text}</h1>
     )
 }
