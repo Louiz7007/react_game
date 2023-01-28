@@ -3,6 +3,7 @@ import {SimpleButton} from "../components/SimpleButton";
 import {root} from "../index";
 import React from "react";
 import {Welcome} from "./Welcome";
+import '../index.css';
 
 export function Game() {
     const clickEvent = () => {
