@@ -7,7 +7,14 @@ body {
   background: #333333;
 }
 
-.App {
+.title {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
   display: flex;
   align-items: center;
   justify-content: center;

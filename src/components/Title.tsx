@@ -6,6 +6,8 @@ export function Title(props: { text: string }) {
     }
 
     return (
+        <div className={'title'}>
         <h1 style={style}>{props.text}</h1>
+        </div>
     )
 }

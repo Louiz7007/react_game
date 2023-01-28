@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
 import {Title} from "./components/Title";
-import {Button} from "./components/Button";
+import {LoginForm} from './components/LoginForm';
 
 function App() {
-  return (
-    <div className="App">
-      <Title text={'Willkommen'}/>
-        <Button text={'Start'}/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Title text={'Willkommen'}/>
+            <LoginForm/>
+        </div>
+    );
 }
 
 export default App;

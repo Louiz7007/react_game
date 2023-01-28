@@ -6,6 +6,10 @@ export function Button(props: {text: string}) {
         fontFamily: 'Montserrat'
     }
     return (
-        <button style={style}>{props.text}</button>
+        <div className={'button'}>
+        <button style={style}>
+            <span>{props.text}</span>
+        </button>
+        </div>
     )
 }
