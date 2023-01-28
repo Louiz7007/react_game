@@ -3,7 +3,6 @@ import {SimpleButton} from "../components/SimpleButton";
 import React from "react";
 import {root} from "../index";
 import {Game} from "./Game";
-import '../index.css';
 
 export function Welcome() {
 
