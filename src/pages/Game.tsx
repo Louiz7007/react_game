@@ -1,8 +1,8 @@
 import {Title} from "../components/Title";
-import {SimpleButton} from "../components/SimpleButton";
 import {root} from "../index";
 import React from "react";
 import {Welcome} from "./Welcome";
+import {GameCard} from "../components/GameCard";
 
 export function Game() {
     const clickEvent = () => {
@@ -15,7 +15,7 @@ export function Game() {
     return (
         <div>
             <Title text={'Game'}/>
-            <SimpleButton text={'Go Back'} clickEvent={clickEvent}/>
+            <GameCard/>
         </div>
     )
 }

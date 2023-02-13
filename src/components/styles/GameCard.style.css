@@ -1,0 +1,60 @@
+.gameCard {
+    background: white;
+    width: 20vw;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameCard > span {
+    font-family: Montserrat;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.gameCard:hover {
+    background: aquamarine;
+    cursor: pointer;
+}
+
+.wrapper {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen
+and (device-width: 390px)
+and (device-height: 844px)
+and (-webkit-device-pixel-ratio: 3) {
+    .gameCard {
+        background: white;
+        width: 20vw;
+        height: 60vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gameCard > span {
+        font-family: Montserrat;
+        font-size: 5vh;
+        font-weight: bold;
+    }
+
+    .gameCard:hover {
+        background: aquamarine;
+        cursor: pointer;
+    }
+
+    .wrapper {
+        margin-top: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
