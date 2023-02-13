@@ -10,6 +10,6 @@ and (device-width: 390px)
 and (device-height: 844px)
 and (-webkit-device-pixel-ratio: 3) {
     h1{
-        font-size: 5vh;
+        font-size: 7vh;
     }
 }
