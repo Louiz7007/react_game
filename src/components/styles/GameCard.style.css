@@ -32,7 +32,7 @@ and (device-height: 844px)
 and (-webkit-device-pixel-ratio: 3) {
     .gameCard {
         background: white;
-        width: 40vw;
+        width: 60vw;
         height: 50vh;
         text-align: center;
         display: flex;
