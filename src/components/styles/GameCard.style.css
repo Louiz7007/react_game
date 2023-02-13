@@ -34,7 +34,8 @@ and (device-width: 390px)
 and (device-height: 844px)
 and (-webkit-device-pixel-ratio: 3) {
     .gameCard {
-        background: white;
+        background-image: url("../../images/playing_card_bg.jpg");
+        background-size: contain;
         width: 60vw;
         height: 50vh;
         text-align: center;
