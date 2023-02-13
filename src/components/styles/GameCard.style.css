@@ -1,5 +1,6 @@
 .gameCard {
-    background: white;
+    background-image: url("../../images/playing_card_bg.jpg");
+    background-size: contain;
     width: 20vw;
     height: 60vh;
     text-align: center;
@@ -10,12 +11,14 @@
 
 .gameCard > span {
     font-family: Montserrat;
-    font-size: 5vh;
+    font-size: 7vh;
     font-weight: bold;
+    padding: 5vh;
+    color: darkred;
 }
 
 .gameCard:hover {
-    background: aquamarine;
+    border: 5px solid white;
     cursor: pointer;
 }
 
