@@ -50,11 +50,6 @@ and (-webkit-device-pixel-ratio: 3) {
         font-weight: bold;
     }
 
-    .gameCard:hover {
-        background: aquamarine;
-        cursor: pointer;
-    }
-
     .wrapper {
         margin-top: 10vh;
         display: flex;
